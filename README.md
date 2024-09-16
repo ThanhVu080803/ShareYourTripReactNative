@@ -1,5 +1,7 @@
 ﻿# ReactNativeShareYourTrip
 
+# Team - site: 2 memeber2
+
 ## Overview
 
 **React Native Share Your Trip** is a frontend system that provides an interface for customers to be able to interact with post tasks, reviews, comments, and manage personal information. In addition, users message each other.
@@ -7,7 +9,7 @@
 ## Installation
 *This readme contains installations and usages for React Native*
 
-To ensure the project runs, please open the Backend [Share Your Trip](https://github.com/TrucThanh278/ShareYourTrip)
+To ensure the project runs, please open the Backend [Share Your Trip](https://github.com/ThanhVu080803/ShareYourTripDjango)
 
 ```bash
 # Run Backend Share Your Trip
