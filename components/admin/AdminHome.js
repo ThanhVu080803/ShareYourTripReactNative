@@ -13,7 +13,7 @@ import MyStyles from "../../styles/MyStyles";
 import { FontAwesome } from "@expo/vector-icons";
 import * as ImagePicker from "expo-image-picker";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { authApi, endpoints } from "../../configs/APIs"; // Import các cấu hình API
+import { authApi, endpoints } from "../../configs/APIs";
 import Logout from "../Users/Logout";
 
 const AdminHome = ({ navigation }) => {

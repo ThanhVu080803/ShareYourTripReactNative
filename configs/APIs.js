@@ -15,7 +15,8 @@ export const endpoints = {
 	reports: "/report/",
 	users: "/users/",
 	blockUser: (userId) => `/users/${userId}/block_user/`,
-
+	deleteUser: "/api/logout",
+	postImages: (postId) => `/posts/${postId}/images`,
 	images: "/images/",
 	hashtags: "/hashtags/",
 	posts: "/posts/",

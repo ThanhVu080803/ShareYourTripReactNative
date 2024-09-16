@@ -83,7 +83,7 @@ const HomeStack = () => (
 		/>
 		<Stack.Screen name="RatingDetail" component={RatingDetail} />
 		<Stack.Screen name="PostDetail" component={PostDetail} />
-      <Stack.Screen name="ChatDetail" component={ChatDetail} options={{ title: "Chi Tiết Chat" }} />
+		<Stack.Screen name="ChatDetail" component={ChatDetail} options={{ title: "Chi Tiết Chat" }} />
 	</Stack.Navigator>
 );
 
@@ -209,8 +209,8 @@ const MyTab = () => {
 								options={{
 									title:
 										user?.first_name +
-											" " +
-											user?.last_name || "Tài khoản",
+										" " +
+										user?.last_name || "Tài khoản",
 									headerShown: false,
 									tabBarIcon: ({ color, size }) => (
 										<MaterialCommunityIcons
@@ -221,16 +221,16 @@ const MyTab = () => {
 									),
 								}}
 							/>
-        <Tab.Screen
-                        name="Chat"
-                        component={Chat} 
-                        options={{
-                          title: "Nhắn tin",
-                          tabBarIcon: ({ color, size }) => (
-                            <MaterialCommunityIcons name="chat" color={color} size={size} />
-                          ),
-                        }}
-                      />
+							<Tab.Screen
+								name="Chat"
+								component={Chat}
+								options={{
+									title: "Nhắn tin",
+									tabBarIcon: ({ color, size }) => (
+										<MaterialCommunityIcons name="chat" color={color} size={size} />
+									),
+								}}
+							/>
 							<Tab.Screen
 								name="Logout"
 								component={Logout}
