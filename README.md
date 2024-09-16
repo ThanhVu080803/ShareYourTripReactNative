@@ -1,6 +1,6 @@
 ﻿# ReactNativeShareYourTrip
 
-# Team - site: 2 memeber
+# Team - size: 2 memeber
 
 ## Overview
 
